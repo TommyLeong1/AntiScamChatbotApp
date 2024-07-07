@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6522311D2A1A48AB009A2465 /* AntiScamChatbotAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6522311C2A1A48AB009A2465 /* AntiScamChatbotAppApp.swift */; };
+		6522311F2A1A48AB009A2465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6522311E2A1A48AB009A2465 /* ContentView.swift */; };
+		652231212A1A48AD009A2465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652231202A1A48AD009A2465 /* Assets.xcassets */; };
+		652231242A1A48AD009A2465 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652231232A1A48AD009A2465 /* Preview Assets.xcassets */; };
+		6522312B2A1A4956009A2465 /* AntiScambot_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6522312A2A1A4956009A2465 /* AntiScambot_Response.swift */; };
+		6522312D2A1A4997009A2465 /* AntiScambot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6522312C2A1A4997009A2465 /* AntiScambot.swift */; };
+		6522312F2A1A49F8009A2465 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6522312E2A1A49F8009A2465 /* Homepage.swift */; };
+		652231312A1A4A5E009A2465 /* Scammerbot_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652231302A1A4A5E009A2465 /* Scammerbot_Response.swift */; };
+		652231332A1A4A6E009A2465 /* Scammerbot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652231322A1A4A6E009A2465 /* Scammerbot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		652231192A1A48AB009A2465 /* AntiScamChatbotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntiScamChatbotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6522311C2A1A48AB009A2465 /* AntiScamChatbotAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntiScamChatbotAppApp.swift; sourceTree = "<group>"; };
+		6522311E2A1A48AB009A2465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		652231202A1A48AD009A2465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		652231232A1A48AD009A2465 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6522312A2A1A4956009A2465 /* AntiScambot_Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntiScambot_Response.swift; sourceTree = "<group>"; };
+		6522312C2A1A4997009A2465 /* AntiScambot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntiScambot.swift; sourceTree = "<group>"; };
+		6522312E2A1A49F8009A2465 /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		652231302A1A4A5E009A2465 /* Scammerbot_Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scammerbot_Response.swift; sourceTree = "<group>"; };
+		652231322A1A4A6E009A2465 /* Scammerbot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scammerbot.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		652231162A1A48AB009A2465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		652231102A1A48AB009A2465 = {
+			isa = PBXGroup;
+			children = (
+				6522311B2A1A48AB009A2465 /* AntiScamChatbotApp */,
+				6522311A2A1A48AB009A2465 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6522311A2A1A48AB009A2465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				652231192A1A48AB009A2465 /* AntiScamChatbotApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6522311B2A1A48AB009A2465 /* AntiScamChatbotApp */ = {
+			isa = PBXGroup;
+			children = (
+				6522311C2A1A48AB009A2465 /* AntiScamChatbotAppApp.swift */,
+				6522311E2A1A48AB009A2465 /* ContentView.swift */,
+				6522312E2A1A49F8009A2465 /* Homepage.swift */,
+				6522312C2A1A4997009A2465 /* AntiScambot.swift */,
+				652231322A1A4A6E009A2465 /* Scammerbot.swift */,
+				6522312A2A1A4956009A2465 /* AntiScambot_Response.swift */,
+				652231302A1A4A5E009A2465 /* Scammerbot_Response.swift */,
+				652231202A1A48AD009A2465 /* Assets.xcassets */,
+				652231222A1A48AD009A2465 /* Preview Content */,
+			);
+			path = AntiScamChatbotApp;
+			sourceTree = "<group>";
+		};
+		652231222A1A48AD009A2465 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				652231232A1A48AD009A2465 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		652231182A1A48AB009A2465 /* AntiScamChatbotApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652231272A1A48AD009A2465 /* Build configuration list for PBXNativeTarget "AntiScamChatbotApp" */;
+			buildPhases = (
+				652231152A1A48AB009A2465 /* Sources */,
+				652231162A1A48AB009A2465 /* Frameworks */,
+				652231172A1A48AB009A2465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AntiScamChatbotApp;
+			productName = AntiScamChatbotApp;
+			productReference = 652231192A1A48AB009A2465 /* AntiScamChatbotApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		652231112A1A48AB009A2465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					652231182A1A48AB009A2465 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 652231142A1A48AB009A2465 /* Build configuration list for PBXProject "AntiScamChatbotApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 652231102A1A48AB009A2465;
+			productRefGroup = 6522311A2A1A48AB009A2465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				652231182A1A48AB009A2465 /* AntiScamChatbotApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		652231172A1A48AB009A2465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652231242A1A48AD009A2465 /* Preview Assets.xcassets in Resources */,
+				652231212A1A48AD009A2465 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		652231152A1A48AB009A2465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6522312B2A1A4956009A2465 /* AntiScambot_Response.swift in Sources */,
+				652231332A1A4A6E009A2465 /* Scammerbot.swift in Sources */,
+				652231312A1A4A5E009A2465 /* Scammerbot_Response.swift in Sources */,
+				6522312D2A1A4997009A2465 /* AntiScambot.swift in Sources */,
+				6522311F2A1A48AB009A2465 /* ContentView.swift in Sources */,
+				6522312F2A1A49F8009A2465 /* Homepage.swift in Sources */,
+				6522311D2A1A48AB009A2465 /* AntiScamChatbotAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		652231252A1A48AD009A2465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		652231262A1A48AD009A2465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		652231282A1A48AD009A2465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AntiScamChatbotApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeongTommy1.AntiScamChatbotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		652231292A1A48AD009A2465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AntiScamChatbotApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeongTommy1.AntiScamChatbotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		652231142A1A48AB009A2465 /* Build configuration list for PBXProject "AntiScamChatbotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652231252A1A48AD009A2465 /* Debug */,
+				652231262A1A48AD009A2465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652231272A1A48AD009A2465 /* Build configuration list for PBXNativeTarget "AntiScamChatbotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652231282A1A48AD009A2465 /* Debug */,
+				652231292A1A48AD009A2465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 652231112A1A48AB009A2465 /* Project object */;
+}
